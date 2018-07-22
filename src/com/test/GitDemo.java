@@ -6,6 +6,7 @@ public class GitDemo {
 		
 		System.out.println("Github demo");
 		System.out.println("modification");
+		System.out.println("new");
 	}
 
 }
