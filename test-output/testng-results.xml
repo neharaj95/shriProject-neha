@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="19889" started-at="2018-07-13T15:00:02Z" finished-at="2018-07-13T15:00:22Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="19889" started-at="2018-07-13T15:00:02Z" finished-at="2018-07-13T15:00:22Z">
+      <class name="com.test.OfficeShriTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.OfficeShriTest@6ee52dcd]" name="setUp" is-config="true" duration-ms="2677" started-at="2018-07-13T15:00:02Z" finished-at="2018-07-13T15:00:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="logInPage()[pri:0, instance:com.test.OfficeShriTest@6ee52dcd]" name="logInPage" duration-ms="17080" started-at="2018-07-13T15:00:05Z" finished-at="2018-07-13T15:00:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInPage -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:com.test.OfficeShriTest@6ee52dcd]" name="CloseBrowser" is-config="true" duration-ms="108" started-at="2018-07-13T15:00:22Z" finished-at="2018-07-13T15:00:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- com.test.OfficeShriTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
