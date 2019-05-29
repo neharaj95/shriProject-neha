@@ -37,7 +37,7 @@ public class shriresume {
 		  WebElement email = driver.findElement(By.id("user_email"));
 		  email.sendKeys("neha@madhulata.com");
 		  WebElement password = driver.findElement(By.id("user_password"));
-		  password.sendKeys("123456");
+		  password.sendKeys("password");
 		  WebElement submit = driver.findElement(By.name("commit"));
 		  submit.click();
 		 // Preview(driver);
@@ -72,7 +72,7 @@ public class shriresume {
 		  
 		 WebElement resume = driver.findElement(By.xpath("//a[@href='/resume-builder']")); 
 		 resume.click();
-		 WebElement tem = driver.findElement(By.className("template2"));
+		 WebElement tem = driver.findElement(By.className("template25"));
 		 tem.click();
 		 WebElement funcarea = driver.findElement(By.id("resume_functional_area_id"));
 		 Select dropdown=new Select(funcarea);
