@@ -24,20 +24,20 @@ public class shriresume {
 		
 		  System.setProperty("webdriver.chrome.driver","C:\\SeleniumDriver\\New_folder\\chromedriver_win32\\chromedriver.exe");
 		  ChromeDriver driver=new ChromeDriver();
-		  //driver.navigate().to("http://192.168.1.164:3000");
-		  driver.navigate().to("https://shriresume.com");
-		  //driver.navigate().to("http://192.168.1.146:3000");
+		  //driver.navigate().to("");
+		  driver.navigate().to("https://abc.com");
+		  //driver.navigate().to("");
 		  driver.manage().window().maximize();
-		  //driver.get("http://192.168.1.133:3001");
+		  //driver.get("");
 		  
 		  WebElement click = driver.findElement(By.className("org_br_btn"));
 		  click.click();
 		 // driver.findElement(By.xpath("//html//body//div[4]//div//div[2]//div[1]//a[2]")).click();
 		 //driver.findElements(By.tagName("a"));
 		  WebElement email = driver.findElement(By.id("user_email"));
-		  email.sendKeys("neha@madhulata.com");
+		  email.sendKeys("");
 		  WebElement password = driver.findElement(By.id("user_password"));
-		  password.sendKeys("password");
+		  password.sendKeys("");
 		  WebElement submit = driver.findElement(By.name("commit"));
 		  submit.click();
 		 // Preview(driver);
