@@ -11,7 +11,7 @@ public class SignUp {
 	public static void main(String[] args) {
 		System.setProperty("webdriver.chrome.driver","C:\\SeleniumDriver\\New_folder\\chromedriver_win32\\chromedriver.exe");
 		ChromeDriver driver=new ChromeDriver();
-		//driver.navigate().to("http://192.168.1.119:3000/");
+		
 		driver.get("https://shriresume.com");
 		//driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
 		 driver.manage().window().maximize();
@@ -24,13 +24,13 @@ public class SignUp {
 		 List<WebElement> email=driver.findElements(By.id("user_email"));
 		 email.size();
 		 System.out.println("no."+email.size());
-		 email.get(1).sendKeys("r2sa4pu6f444ha@madhulata.com");
+		 email.get(1).sendKeys("");
 		
-		 driver.findElement(By.xpath("//*[@id='user_mobile']")).sendKeys("8054426845");
+		 driver.findElement(By.xpath("//*[@id='user_mobile']")).sendKeys("");
 		 List<WebElement> pass=driver.findElements(By.id("user_password"));
 		 pass.size();
 		 System.out.println("no."+pass.size());
-		 pass.get(1).sendKeys("password");
+		 pass.get(1).sendKeys("");
 		 
 		 driver.findElement(By.id("user_password_confirmation")).sendKeys("password");
 		 List<WebElement> submit=driver.findElements(By.name("commit"));
